@@ -23,7 +23,7 @@ func main(){
         fmt.Println("Error:", err)
 		return
     } else {
-        fmt.Printf("Result Devision: %d / %d = %d\n", a, b, f)
+        fmt.Printf("Result Devision: %d / %d = %.2f\n", a, b, f)
     }
 }
 
