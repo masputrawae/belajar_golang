@@ -10,7 +10,7 @@ func main() {
 	var height int
 	height = 170
 
-	fmt.Printf("Result Example 1:\nname: %s type: %T\nheight: %d type: %T\n", name, name, height, height)
+	fmt.Printf("Result Example 1:\nname: %s type: %T\nheight: %d type: %T\n\n", name, name, height, height)
 
 	// Example 2
 	var firstName string = "John"
@@ -19,13 +19,13 @@ func main() {
 	var favoritNumber float64 = 10.55
 	var bodyWeight = 60.5
 
-	fmt.Printf("Result Example 2:\nfirstName: %s\nlastName: %s\nfavoritNumber: %.2f\nbodyWeight: %.1f\n", firstName, lastName, favoritNumber, bodyWeight)
+	fmt.Printf("Result Example 2:\nfirstName: %s\nlastName: %s\nfavoritNumber: %.2f\nbodyWeight: %.1f\n\n", firstName, lastName, favoritNumber, bodyWeight)
 
 	// Example 3
 	fullName := "John Doe"
 	age := 27
 
-	fmt.Printf("Result Example 3:\nfullName: %s\nage: %d", fullName, age)
+	fmt.Printf("Result Example 3:\nfullName: %s\nage: %d\n\n", fullName, age)
 
 	// Example 4
 	var (
